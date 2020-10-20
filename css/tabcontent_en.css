@@ -1,0 +1,138 @@
+﻿
+/* ######### CSS for orange Inverted Modern Bricks II Tabs ######### */
+
+.omodernbricksmenu2{
+padding: 0;
+width:658px;
+height:35px;
+background-color:white;
+text-align:left;
+border-bottom:1px #a5a5a5 solid;
+direction:ltr
+}
+
+.omodernbricksmenu2 ul{
+margin:0 0 0 0;
+padding: 0 0 0 0;
+list-style: none;
+direction:ltr
+}
+
+.omodernbricksmenu2 li{
+display: inline;
+margin: 0 0 0 0;
+padding: 0;
+width:132px;
+height:35px;
+text-align:center;
+direction:ltr
+}
+
+.omodernbricksmenu2 a , .omodernbricksmenu2 a:visited{
+float: left;display: block;font-family: Calibri;font-size:17px;font-weight:bold;text-decoration: none;
+margin:0 0 0 0;padding:0px 0x 0 0px;background-color:#72c336;color:white;width:149px;height:35px;line-height:35px;text-align:center;
+direction:ltr;text-transform: capitalize
+}
+
+
+.omodernbricksmenu2 a:hover{
+font-family:Calibri;font-size:17px;font-weight:bold;margin:0 0 0 0;padding:0px 0x 0 0px;background-color:#72c336;color:white;
+width:149px;height:35px;line-height:35px;text-align:center;
+direction:ltr;text-transform: capitalize
+}
+
+
+.omodernbricksmenu2 a.selected{ /*currently selected tab*/ 
+font-family:Calibri;font-size:17px;font-weight:bold;
+margin:0 0 0 0;padding:0px 0x 0 0px;background-color:white;color:#4db201;width:149px;height:35px;line-height:35px;text-align:center;
+border-bottom:1px #ffffff solid;border-top:1px #a5a5a5 solid;border-right:1px #a5a5a5 solid;border-left:1px #a5a5a5 solid;
+direction:ltr;text-transform: capitalize
+}
+
+
+.omodernbricksmenu2 div a.languagelink , .omodernbricksmenu2 div a.languagelink:visited{font-family: Calibri;color:red;font-size:16px;font-weight:normal;text-decoration:none;line-height:25px;margin:0 0 0 0px;background:none}
+.omodernbricksmenu2 div a.languagelink:hover{font-family:Calibri;color:#c80101;font-size:16px;font-weight:normal;text-decoration: underline;line-height:25px;margin:0 0 0 0px;background:none}
+
+
+/* ##########################tabcontent###################### */
+
+.otabcontent{
+display:none;
+width:656px;
+height:auto;
+padding:20px 0px 20px 0px ;
+background-color:white;
+font-family:Times New Roman;
+font-size:18px;
+color:#ea0303;
+font-weight:normal;
+line-height:22px;
+border-left:1px #a5a5a5 solid;
+border-right:1px #a5a5a5 solid;
+border-bottom:1px #a5a5a5 solid
+}
+
+.otabcontent_table{
+	width:656px;
+	height:auto;
+	padding:0;
+	margin:0 auto 0px auto;
+	display:table !important;
+	clear:both !important;
+}
+
+@media print {
+.otabcontent {
+display:block !important;
+width:656px;
+height:auto;
+padding:20px 0px 20px 0px ;
+background-color:white
+
+}
+}
+
+.otabcontent span{
+font-family:tahoma;
+font-size:11px;
+color:#616161;
+font-weight:normal;
+}
+
+
+
+/* ##########################tabcontent###################### */
+
+.otabcontent2{
+display:none;
+width:624px;
+height:auto;
+padding:16px 16px 16px 16px ;
+background-color:white;
+font-weight:normal;
+line-height:22px;
+border-left:1px #a5a5a5 solid;
+border-right:1px #a5a5a5 solid;
+border-bottom:1px #a5a5a5 solid
+}
+
+
+@media print {
+.otabcontent2{
+display:block !important;
+width:624px;
+height:auto;
+padding:16px 16px 16px 16px;
+background-color:white
+
+}
+}
+
+.otabcontent2 span{
+font-family:tahoma;
+font-size:11px;
+color:#616161;
+font-weight:normal;
+}
+
+

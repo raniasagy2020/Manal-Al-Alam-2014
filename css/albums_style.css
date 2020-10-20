@@ -1,0 +1,358 @@
+﻿/**************************************************************************************
+**************************************************************************************/
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+/* ################# standard ################# */
+
+html {
+min-height: 100%;
+height: auto;
+}
+
+body {
+direction:rtl;
+margin:0 0 0 0;
+padding:0 0 0 0;
+font-family:Tahoma;
+color:#000000;
+font-weight:normal;
+font-size:12px;
+line-height:16px;
+text-align:justify;
+height:100%;
+background:url('../images/woodbg.jpg') repeat left top;
+}
+
+ul {margin:0 0 0 0px;padding:0 0 0 0;line-height:17px;list-style-type:none;list-style-position:outside;}
+li{margin:0 0 0 0;padding:0 0 0 0}
+div {margin:0 0 0 0;padding:0 0 0 0;}
+table {margin:0 0 0 0;padding:0 0 0 0;}
+td{margin:0 0 0 0;padding:0 0 0 0;vertical-align:top}
+img {margin:0 0 0 0;padding:0 0 0 0;border:0;}
+p {margin:0 0 0 0;padding:0 0 0 0;}
+form {margin:0 0 0 0;padding:0 0 0 0;}
+object{margin:0 0 0 0;padding:0 0 0 0}
+a{margin:0 0 0 0;padding:0 0 0 0}
+span{margin:0 0 0 0;padding:0 0 0 0;}
+.clear {clear:both}
+
+/* ############### End standard  ############### */
+
+
+/* ################################################ */
+/* ################### content #################### */
+/* ################################################ */
+
+
+.user_maincontentdiv{
+	width:990px;
+	height:auto;
+	margin:0 auto;
+	padding:0;
+	display:table !important;
+	clear:both;
+	z-index:999999;
+}
+
+/* ################################################ */
+/* ################### mainlogodiv ################ */
+/* ################################################ */
+
+.user_mainlogodiv{
+	width:100%;
+	height:110px;
+	padding:0;
+	margin:0 auto 5px auto;
+	display:table !important;
+	clear:both;
+}
+
+.user_mainlogodiv_innerdiv{
+	width:990px;
+	height:110px;
+	background:url('../images/lightwhitebg.png') repeat left top;
+	display:table !important; 
+	clear:both;
+	padding:0;
+	margin:0 auto;
+}
+
+/* #######################innerrightdiv######################### */
+
+.user_mainlogodiv_innerrightdiv{
+	width:232px;
+	height:110px;
+	float:right;
+	padding:0 10px 0 0;
+	margin:0;
+	text-align:right;
+}
+
+.user_mainlogodiv_innerrightdiv img{
+	width:195px;
+	height:108px;
+}
+
+/* #######################innerleftdiv######################### */
+
+.user_mainlogodiv_innerleftdiv{
+	width:728px;
+	height:auto;
+	float:left;
+	text-align:left;
+	padding:10px 0 10px 10px;
+	margin:0;
+}
+
+.user_mainlogodiv_innerleftdiv img{
+	width:728px;
+	height:90px;
+}
+
+/* ################################################ */
+/* ################### end mainlogodiv################ */
+/* ################################################ */
+
+
+/* ################################################ */
+/* ################### maindatadiv ################ */
+/* ################################################ */
+
+.user_maindatadiv{
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0 auto 5px auto;
+	display:table !important;
+	clear:both;
+}
+
+.user_maindatadiv_innerdiv{
+	width:990px;
+	height:auto;
+	display:table !important; 
+	clear:both;
+	padding:10px 0px;
+	margin:0 auto;
+}
+
+.user_maindatadiv_table{
+	width:990px;
+	height:auto;
+	display:table !important; 
+	clear:both;
+	padding:0;
+	margin:0 auto;
+	direction:rtl;
+}
+
+
+/* ################################################ */
+/* #######################righttd######################### */
+
+.user_maindatadiv_righttd{
+	width:690px;
+	height:auto;
+	padding:0 0 0 20px;
+	margin:0 0 0 0;
+}
+
+.user_maindatadiv_rightdiv{
+	width:650px;
+	height:auto;
+	background:url('../images/lightwhitebg.png') repeat left top;
+	padding:20px 20px 20px 20px;
+	margin:0 auto;
+    outline:2px dashed #72c336;
+    outline-offset: -10px;
+    /*shadow*/
+	-webkit-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	-moz-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+}
+
+.user_maindatadiv_righttable{
+	width:650px;
+	height:auto;
+	display:table !important; 
+	clear:both;
+	padding:0;
+	margin:0 auto;
+}
+
+.user_maindatadiv_rightbtd{
+	width:650px;
+	height:auto;
+	padding:20px 0 10px 0
+}
+
+.user_maindatadiv_rightpictd{
+	width:150px;height:auto;padding:0 0 0 20px;margin:0 0 0 0;
+}
+
+.user_maindatadiv_rightdiv_picdiv{width:150px;height:150px;position:relative;padding:5px;margin:0 0 0 0;border:1px #a5a5a5 solid;background-color:white;float:right}
+.user_maindatadiv_rightdiv_pic{width:150px;height:150px;position:absolute;padding:0 0px 0 0;margin:0 0 0px 0;
+	-webkit-transition: -webkit-transform 0.2s linear;
+  -moz-transition: -moz-transform 0.2s linear;
+  -o-transition: -o-transform 0.2s linear;
+  transition: transform 0.2s linear;
+}
+
+.user_maindatadiv_rightdiv_pic:hover{width:150px;height:150px;position:absolute;padding:0 0px 0 0;margin:0 0 0px 0;border:0px #a5a5a5 solid;background-color:white;
+ -webkit-transform: scale(0.9);   
+  -moz-transform: scale(0.9);  
+  -ms-transform: scale(0.9);  
+  -o-transform: scale(0.9);  
+  transform: scale(0.9);
+	-webkit-transition: -webkit-transform 0.2s linear;
+  -moz-transition: -moz-transform 0.2s linear;
+  -o-transition: -o-transform 0.2s linear;
+  transition: transform 0.2s linear;
+}
+
+/* ################################################ */
+
+.user_maindatadiv_righttxttd{
+	width:480px;height:auto;padding:0 0 0 0px;margin:0 0 0 0;
+}
+
+.user_maindatadiv_righttxttd h1{
+font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:16px;color:#30b401;font-weight:bold;line-height:45px;margin:0 0 8px 0px; padding:0 0 0 0;
+-moz-font-smoothing:none !important;font-smoothing: antialiased !important;
+background:url('../images/user_icon.png') no-repeat right;height:45px;text-indent:80px
+}
+
+.user_maindatadiv_righttxttd h2{
+font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:11px;color:#7b7b7b;font-weight:bold;line-height:17px;margin:0 0 8px 0px; padding:0 0 0 0;
+-moz-font-smoothing:none !important;font-smoothing: antialiased !important;
+text-indent:80px
+}
+
+.user_maindatadiv_righttxttd span{
+font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:14px;color:#000000;font-weight:bold;line-height:17px;
+}
+
+/* ################################################ */
+
+.user_maindatadiv_rightcommentstitlediv{
+	width:650px;height:35px;line-height:35px;font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:13px;font-weight:bold;color:white;
+	margin:0 0 0 0;padding:0px 0 0 0;text-align:right;border-bottom:1px #a5a5a5 solid;
+	background:#30b401 url('../images/downarrow.png') no-repeat right bottom;
+}
+
+.user_maindatadiv_rightcommentsbtitlediv{
+	width:650px;height:15px; margin:-5px 0 -10px 0;line-height:35px;
+	background:url('../images/downarrow.png') no-repeat right bottom;
+}
+
+.user_maindatadiv_rightcommentstitle{
+	margin:0 0 0px 0;padding:0px 0x 0 0px;;
+	width:142px;height:35px;line-height:35px;text-align:center;
+	border-bottom:0px #76d455 solid;border-top:1px #76d455 solid;border-right:1px #76d455 solid;border-left:0px #a5a5a5 solid;
+}
+
+.user_maindatadiv_rightcommentsimg{margin:5px 10px 0px 10px;float:right}
+
+.user_maindatadiv_rightcommentsbox{
+	width:608px;
+	height:auto;
+	padding:20px 20px 20px 20px ;
+	margin:0 0 0px 0px;
+	border-left:1px #72c336 solid;
+	border-right:1px #72c336 solid;
+	border-bottom:1px #72c336 solid;
+}
+
+.user_maindatadiv_rightcommentstable{
+	width:608px;
+	height:auto;
+	padding:0;
+	margin:0 auto 0px auto;
+	display:table !important;
+	clear:both;
+	font-family:Tahoma;
+	font-size:14px;
+	color:black;
+	line-height:22px;
+	font-weight:normal;
+	text-decoration:none
+}
+
+
+/* ################################################ */
+/* #######################lefttd######################### */
+
+.user_maindatadiv_lefttd{
+	width:280px;
+	height:auto;
+	padding:0 0 0 0px;
+	margin:0 0 0 0;
+}
+
+.user_maindatadiv_leftdiv{
+	width:240px;
+	height:auto;
+	background:url('../images/lightwhitebg.png') repeat left top;
+	padding:20px 20px 20px 20px;
+	margin:0 auto;
+    outline:2px dashed #72c336;
+    outline-offset: -10px;
+    /*shadow*/
+	-webkit-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	-moz-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+}
+
+     
+.user_maindatadiv_lefttitlediv , .user_maindatadiv_lefttitlediv:visited{
+	width:220px;
+	height:40px;
+	padding:0 10px;
+	margin:0 0 10px 0;
+	font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:12px;color:white;font-weight:bold;line-height:45px;text-indent:50px;
+	-moz-font-smoothing:none !important;font-smoothing: antialiased !important;
+	background:#30b401 url('../images/heart.png') no-repeat right top;
+    /*shadow*/
+	-webkit-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	-moz-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+    -webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+.user_maindatadiv_lefttitlediv:hover{
+	width:220px;
+	height:45px;
+	padding:0 10px;
+	margin:0 0 10px 0;
+	font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:14px;color:white;font-weight:bold;line-height:45px;text-indent:50px;
+	-moz-font-smoothing:none !important;font-smoothing: antialiased !important;
+	background:#63d23c url('../images/heart_hover.png') no-repeat right top;
+    /*shadow*/
+	-webkit-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	-moz-box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	box-shadow: 1px 3px 5px rgba(255,255,255, 0.5);
+	
+    -webkit-transition: all 300ms linear;
+	-moz-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	transition: all 300ms linear;
+
+}
+
+
+
+
+
+/* ################################################ */
+/* ################### end maindatadiv ################ */
+/* ################################################ */
+
+
+

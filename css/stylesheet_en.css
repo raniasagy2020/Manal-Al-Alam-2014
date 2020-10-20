@@ -1,0 +1,447 @@
+﻿/**************************************************************************************
+**************************************************************************************/
+/* 
+ * 
+ */
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: "Hayah";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Hayah.otf");
+	-webkit-text-stroke: 0px!important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+    font-family: "SpiritOfDohaBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/SpiritOfDohaBold.otf");
+	-webkit-text-stroke: 0px!important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+    font-family: "TheSansPlain";
+    font-style: normal;
+    font-weight: normal;
+   	src: url('../fonts/TheSansPlain.eot');
+	src: url('../fonts/TheSansPlain.eot?#iefix') format('embedded-opentype');
+    src: url("../fonts/TheSansPlain.woff");
+	-webkit-text-stroke:0px!important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+    font-family: "DroidKufiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/DroidKufiBold.woff");
+	-webkit-text-stroke:0px!important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+
+/* ################# standard ################# */
+
+
+.innerbigtitle1_en{
+    width:581px;height:37px;background:url('../images/innerreceipes1_titlebg_en.png') no-repeat left top;border-bottom:2px #d50f02 solid;
+	padding:0 0 0 77px;margin:0 0 0px 0;text-align:left;;direction:ltr;
+	font-family: 'Droid Arabic Kufi', 'Calibri';font-size:18px;color:#d50f02;font-weight:bold;line-height:37px;
+}
+
+.innerbigtitle2_en{
+    width:581px;height:37px;background:url('../images/innerreceipes2_titlebg_en.png') no-repeat left top;border-bottom:2px #d50f02 solid;
+	padding:0 0 0 77px;margin:0 0 0px 0;text-align:left;;direction:ltr;
+	font-family: 'Droid Arabic Kufi', 'Calibri';font-size:18px;color:#d50f02;font-weight:bold;line-height:37px
+}
+
+
+.innerbigtitle3_en{
+    width:581px;height:37px;background:url('../images/innerreceipes3_titlebg_en.png') no-repeat left top;border-bottom:2px #d50f02 solid;
+	padding:0 0 0 77px;margin:0 0 0px 0;text-align:left;;direction:ltr;
+	font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:15px;color:#d50f02;font-weight:bold;line-height:37px
+}
+
+.innerbigtitle4_en{
+    width:581px;height:37px;background:url('../images/seearticles_titlebg_en.png') no-repeat right top;border-bottom:2px #d50f02 solid;
+	padding:0 0 0 77px;margin:0 0 0px 0;text-align:left;;direction:ltr;
+	font-family: 'Droid Arabic Kufi', 'Tahoma';font-size:15px;color:#d50f02;font-weight:bold;line-height:37px
+}
+
+
+/* ########################innercategorylinks######################## */
+
+.innercategorylinks_en{width:648px;height:37px;padding:0 10px 0px 0;margin:0px 0 0px 0;background-color:#f2f2f2;direction:ltr;text-align:left;text-transform:capitalize}
+.innercategorylinks_en a , .innercategorylinks_en a:visited{font-family: Calibri;color:#000000;font-size:15px;font-weight:normal;text-decoration:none;line-height:35px;margin:0 12px 0 12px}
+.innercategorylinks_en a:hover , .innercategorylinks_en a.selected{font-family:Calibri;color:#ba0101;font-size:15px;font-weight:normal;text-decoration: underline;line-height:35px;margin:0 12px 0 12px}
+
+.innercategorylinks_rightdiv_en{width:570px;height:37px;padding:0 0px 0 0px;margin:0px 0 0px 0;float:right;}
+.innercategorylinks_leftdiv_en{width:70px;height:37px;padding:0 0px 0 0px;margin:3px 0 0px 0;float:left;text-align:left;}
+.innercategorylinks_leftdiv_en a{ outline:none}
+
+
+/* ########################inneradvdiv######################## */
+
+.inneradv1div_en{
+	width:628px;
+	height:15px;
+	border:1px #a5a5a5 solid;
+	background-color:white;
+	margin:5px 0 0 0;
+	padding:10px 14px 10px 14px;
+	text-align:left;;direction:ltr;
+}
+
+/* ########################receipestabdiv######################## */
+
+.receipestabdiv_en{width:658px;height:100%;min-height:400px;padding:0 0px 0 0;margin:30px 0 0px 0;text-align:left;direction:ltr;}
+
+.receipestabdiv_content_td_en{width:656px;height:auto;padding:0 0 20px 0;margin:0;text-align:left;;}
+.receipestabdiv_content_div_en{width:656px;height:146px;padding:0;margin:0;text-align:left;direction:ltr}
+.receipestabdiv_content_picdiv_en{width:192px;height:146px;padding:0px;margin:0 0px 0px 20px;background-color:white;float:left;}
+
+
+
+/* ###########################contentnum##################### */
+
+.inner_contentnumdiv_en{width:616px;height:30px;padding:0;margin:20px auto 5px auto;text-align:center;line-height:20px}
+
+.inner_contentnum_en , .inner_contentnum_en:visited{
+	font-size:10px;font-family:Tahoma;text-align:center;font-weight:bold;text-decoration:none;color:#000000;
+	padding:5px 8px 5px 8px;margin:0 8px 0 0;width:auto;height:auto;border:1px #a5a5a5 solid; direction:ltr
+}
+
+.inner_contentnum_en:hover , .inner_contentnum_en.selected{
+	font-size:10px;font-family:Tahoma;text-align:center;font-weight:bold;text-decoration:none;color:#ffffff;
+	padding:5px 8px 5px 8px;margin:0 8px 0 0;width:auto;height:auto;border:1px #a5a5a5 solid;background-color:#eb1414; direction:ltr
+}
+
+
+/* #########################receipesdetails####################### */
+
+.receipesdetailsdiv_content_div_en{width:624px;height:324px;padding:0;margin:0 0 0px 0px;text-align:right;}
+.receipesdetailsdiv_content_picdiv_en{width:425px;height:324px;position:relative;padding:0 0px 0 0;margin:0 16px 0 0px;border:0px #a5a5a5 solid;float:left}
+.receipesdetailsdiv_content_pic_en{width:425px;height:324px;position:absolute;padding:0 0px 0 0;margin:0 0 0px 0;right:0;top:0;left:0;bottom:0;}
+.receipesdetailsdiv_content_picicon_en{position:absolute;margin:0;right:166px;top:128px;width:90px;height:68px; border:0}
+
+.receipesdetailsdiv_content_picdetailsdiv_en{
+	width:183px;height:324px;position:relative;padding:0 0px 0 0;margin:0 0 0px 0px;float:right;background-color:#f2f2f2;font-family:tahoma;font-size:12px;color:#818181;text-align:center;font-weight:normal;line-height:18px;text-transform:capitalize
+}
+.receipesdetailsdiv_content_picdetailsdiv_en p{
+	padding:0 0px 0 0;margin:0 0 0px 0px;font-family:tahoma;font-size:13px;color:#000000; font-weight:bold; text-transform:capitalize
+}
+
+.receipesdetailsdiv_content_picdetailsdiv_en p a , .receipesdetailsdiv_content_picdetailsdiv p a:visited{padding:0 0px 0 0;margin:0 0 0px 0px;font-family:tahoma;font-size:13px;color:#000000; font-weight:bold;}
+.receipesdetailsdiv_content_picdetailsdiv_en p a:hover{padding:0 0px 0 0;margin:0 0 0px 0px;font-family:tahoma;font-size:13px;color:#69b630; font-weight:bold;}
+
+
+.receipesdetailsdiv_content_picdetailsdiv_en p span{
+	padding:0 0px 0 0;margin:0 0 0px 0px;font-family:tahoma;font-size:25px;color:#69b630;font-weight:bold;line-height:22px
+}
+
+.receipesdetailsdiv_content_picdetailsdiv_graydiv1_en{width:183px;height:45px;padding:5px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:5px #f9f9f9 solid;overflow:hidden}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv2_en{width:183px;height:47px;padding:3px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:5px #f9f9f9 solid;overflow:hidden}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv3_en{width:183px;height:47px;padding:3px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:5px #f9f9f9 solid;overflow:hidden}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv4_en{width:183px;height:47px;padding:3px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:5px #f9f9f9 solid;overflow:hidden;line-height:15px}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv5_en{width:183px;height:47px;padding:3px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:5px #f9f9f9 solid;overflow:hidden;line-height:15px}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv6_en{width:183px;height:47px;padding:3px 0 0 0;margin:0 0 0px 0px;text-align:center;border-bottom:0px #f9f9f9 solid;overflow:hidden}
+
+.receipesdetailsdiv_content_picdetailsdiv_graydiv6_en:hover{background-color:white;cursor:pointer}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv5_en:hover{background-color:white;cursor:pointer}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv4_en:hover{background-color:white;cursor:pointer}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv3_en:hover{background-color:white;cursor:pointer}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv2_en:hover{background-color:white;cursor:pointer}
+.receipesdetailsdiv_content_picdetailsdiv_graydiv1_en:hover{background-color:white;cursor:pointer}
+
+.rating2_en {width:100px;height:30px;;margin:-8px auto 0 auto;background:url(../images/star_rating.gif) no-repeat;}
+.rating2-1_en {background-position: 0 -9px;}
+.rating2-2_en {background-position: 0 -42px;}
+.rating2-3_en {background-position: 0 -78px;}
+.rating2-4_en {background-position: 0 -114px;}
+.rating2-5_en {background-position: 0 -150px;}
+.rating2-6_en {background-position: 0 -186px;}
+.rating2-7_en {background-position: 0 -222px;}
+.rating2-8_en {background-position: 0 -258px;}
+.rating2-9_en {background-position: 0 -294px;}
+.rating2-10_en {background-position: 0 -330px;}
+
+
+/* ########################receipessharingdiv######################## */
+
+.receipessharingdiv_en{
+	width:628px;
+	height:44px;
+	line-height:44px;
+	border:1px #a5a5a5 solid;
+	background-color:white;
+	margin:10px 0 17px 0;
+	padding:0px 14px 0px 14px;
+}
+
+.receipessharingdiv1_en{width:364px;height:34px;padding:5px 0 5px 0;margin:0 10px 0 0px;float:left;}
+.plugindiv_en{width:auto;height:auto;padding:0px;margin:7px 12px 0 0px;float:left;}
+
+.receipessharingdiv2_en{width:254px;height:33px;padding:6px 0 5px 0;margin:0 0 0px 0px;float:right; text-align:right; direction:ltr}
+.receipessharingdiv2_en img{width:auto;height:auto;padding:0px;margin:3px 0 0px 9px;float:right}
+.receipessharingdiv2_en img:hover{width:auto;height:auto;opacity:0.5;filter:alpha(opacity=50); /* For IE8 and earlier */	margin:5px 0 0px 9px;float:right}
+
+
+
+/* ################################################ */
+
+.inner_sharing_icons_en{position:absolute;visibility: hidden;width:220px;height:auto;z-index:7000;left:0;margin:40px 50px 0 0;padding:0;}
+.inner_sharing_icons2_en{position:absolute;visibility: hidden;width:220px;height:auto;z-index:7000;left:0;margin:40px 10px 0 0;padding:0;}
+.inner_sharing_icons3_en{position:absolute;visibility: hidden;width:220px;height:auto;z-index:7000;left:0;margin:40px 47px 0 0;padding:0;}
+
+.inner_sharing_icons_topicon_en{
+	width:100px;height:auto;margin:0 auto 15px auto;text-align:center; padding:0 80px 0 0
+}
+
+.inner_sharing_icons_div_en{
+	width:180px;height:auto;margin:0 auto 0 auto;
+	-webkit-box-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+	-moz-box-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+	box-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+	border:1px solid #2e9904;background-color:white;padding:10px 5px 0 5px;
+}
+
+.inner_sharing_icons_div_en div{
+	width:180px;height:auto;margin:0 auto 10px auto;text-align:center;padding:0px 0 !important;line-height:20px;color:#3bb909;font-weight:bold;
+}
+
+.inner_sharing_icons_div_inputdiv_en{
+	margin:50px 0 0px 0;padding:0px;width:150px;height:auto; background-color:aqua
+}
+
+.inner_sharing_icons_div_input_en{
+	font-family:tahoma;font-size:12px;color:#747474;font-weight:normal;border:0;margin:0 0 0px 0;padding:0px 10px 0px 10px;
+	width:150px;height:23px;line-height:23px;text-align:right;
+	-moz-border-radius:8px;border-radius:8px;border: 1px solid #a5a5a5;outline:none
+}
+
+.inner_sharing_icons_div_hintdiv_en , .inner_sharing_icons_div_hintdiv_en:visited{font-family:Tahoma;color:#000;font-weight:normal;font-size:12px;text-decoration:none;line-height:25px;}
+.inner_sharing_icons_div_hintdiv_en:hover{font-family:Tahoma;color:#ce0101;font-weight:normal;font-size:12px;text-decoration: none;line-height:25px;}
+
+
+.inner_sharing_icons_div_button_en , .inner_sharing_icons_div_button_en:visited{
+	font-family:tahoma;color:#ffffff;font-size:12px;font-weight:bold;text-decoration:none;line-height:19px;
+	width:46px;height:25px;background-color:#72c336;display:block;padding:0px 5px 2px 5px;margin:0 0 0 5px;
+	text-align:center; cursor:pointer;
+	-moz-border-radius:7px;border-radius:7px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	float:right;outline:none
+}
+
+.inner_sharing_icons_div_button_en:hover{
+	font-family:tahoma;color:#2e6c00;font-size:12px;font-weight:bold;text-decoration:none;line-height:19px;
+	width:46px;height:25px;background-color:#a7e07c;display:block;padding:0px 5px 2px 5px;margin:0 0 0 5px;
+	text-align:center; cursor:pointer;
+	-moz-border-radius:7px;border-radius:7px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	float:right;outline:none
+}
+
+
+/* ########################receipessharingdiv######################## */
+
+
+.receipessubtabdiv_en{width:658px;height:auto;padding:0 0px 0 0;margin:15px 0 21px 0; direction:ltr}
+.receipessubtabdiv_content_maindiv_en{
+	width:616px;
+	height:auto;
+	padding:20px 20px 20px 20px ;
+	margin:0 0 0px 0px;
+	background-color:white;
+	border-left:1px #a5a5a5 solid;
+	border-right:1px #a5a5a5 solid;
+	border-bottom:1px #a5a5a5 solid;
+	direction:ltr
+}
+
+.receipessubtabdiv_content_div_en{
+	width:656px;
+	height:146px;
+	padding:20px 0px 20px 0px ;
+	margin:0 0 0px 0px;
+	background-color:white;
+	border-left:1px #a5a5a5 solid;
+	border-right:1px #a5a5a5 solid;
+	border-bottom:1px #a5a5a5 solid;
+	direction:ltr
+}
+
+.receipessubtabdiv_content_commentsdiv_en{
+	width:616px;
+	height:auto;
+	padding:20px 20px 20px 20px ;
+	margin:0 0 0px 0px;
+	background-color:white;
+	border-left:1px #a5a5a5 solid;
+	border-right:1px #a5a5a5 solid;
+	border-bottom:1px #a5a5a5 solid;
+	direction:ltr
+}
+
+.receipessubtabdiv_btitlediv_en{
+	width:658px;height:35px;line-height:35px;font-family:Tahoma;font-size:14px;font-weight:bold;color:#4db201;background-color:white; /*color theme*/ 
+	margin:0 0 0 0;padding:0px 0x 0 0px;text-align:left;border-bottom:1px #a5a5a5 solid;
+}
+
+
+.receipessubtabdiv_titlediv_en{
+	margin:0 0 0px 0;padding:0px 0x 0 0px;background-color:white;
+	width:180px;height:35px;line-height:5px;text-align:center; text-transform:capitalize;
+	border-bottom:1px #ffffff solid;border-top:1px #a5a5a5 solid;border-right:1px #a5a5a5 solid;border-left:1px #a5a5a5 solid;
+}
+
+
+/* ################################################################# */
+
+.commentsimg_en{margin:5px 6px 0px 6px;float:left}
+.makingimg_en{margin:1px 7px -2px 5px;float:left}
+.quantityimg_en{margin:4px 15px 0px 15px;float:left}
+.receipessubtabdiv_titlediv_en p{margin:0px 0 0px 0px;float:left;line-height:35px}
+
+
+/* ##########################makingdiv###################### */
+
+.receipessubtabdiv_quatitytable_en{
+	direction:ltr;
+	width:616px;
+	height:auto;
+	padding:0;
+	margin:0 auto 0px auto;
+	display:table !important;
+	clear:both;
+	font-family: Calibri;
+	font-size:16px;
+	color:black;
+	line-height:17px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:left;
+ border: 1px solid #DDDDDD;    border-radius: 3px;
+}
+
+
+.receipessubtabdiv_quatitytable_en tfoot {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+	
+.receipessubtabdiv_quatitytable_en thead {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.receipessubtabdiv_quatitytable_en tfoot tr td {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+.receipessubtabdiv_quatitytable_en tr td {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+.receipessubtabdiv_quatitytable_en tbody tr td {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+.receipessubtabdiv_quatitytable_en tfoot tr th {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+.receipessubtabdiv_quatitytable_en thead tr th {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+}
+.receipessubtabdiv_quatitytable_en tfoot tr td {
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 10px 9px;
+}
+.receipessubtabdiv_quatitytable_en thead tr th {
+    color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 10px 9px;
+}
+.receipessubtabdiv_quatitytable_en tfoot tr td:first-child {
+    border-right: 0 none;
+}
+.receipessubtabdiv_quatitytable_en thead tr th:first-child {
+    border-right: 0 none;
+}
+.receipessubtabdiv_quatitytable_en tfoot tr td:last-child {
+    border-left: medium none;
+}
+.receipessubtabdiv_quatitytable_en thead tr th:last-child {
+    border-left: medium none;
+}
+.receipessubtabdiv_quatitytable_en tbody tr.alt {
+    background: none repeat scroll 0 0 #F9F9F9;
+}
+.receipessubtabdiv_quatitytable_en tbody tr.even {
+    background: none repeat scroll 0 0 #F9F9F9;
+}
+.receipessubtabdiv_quatitytable_en tbody tr:nth-child(2n) {
+    background: none repeat scroll 0 0 #F9F9F9;
+}
+.receipessubtabdiv_quatitytable_en tbody tr td {
+    border: 0 none;
+    color: #333333;
+    padding: 8px 10px !important;
+    vertical-align: top;
+}
+
+/* end of table ... */
+
+
+/* ##########################makingdiv###################### */
+
+.receipessubtabdiv_makingtable_en{
+	direction:ltr;
+	width:616px;
+	height:auto;
+	padding:0;
+	margin:0 auto 0px auto;
+	display:table !important;
+	clear:both;
+	font-family: Calibri;
+	font-size:16px;
+	color:black;
+	line-height:22px;
+	font-weight:normal;
+	text-decoration:none
+}
+
+/* ################################################################################# */
+
+
+.languagelinkdiv{
+	width:150px;
+	height:40px;
+	float:right;
+	text-align:right;
+	padding:0px 0 0px 25px;
+	margin:0px 0px 0px 10px;
+	line-height:10px;
+	background:url('../images/cooking.png') no-repeat left top;
+}
+
